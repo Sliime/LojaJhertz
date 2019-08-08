@@ -1,0 +1,61 @@
+
+.nav {   
+    color: black;
+    background-color: rgb(252, 174, 58);
+    padding: 0%;
+    margin:0%;
+    border: 0%;
+    border-bottom: 10px solid black;
+    
+   
+   
+   }
+   
+.link-navegacao {
+    font-weight: bold;
+    font-size: 30px;
+    display: inline-flex;
+    margin: 10px;
+    padding: 20px;
+    float: right;
+    clear: left; 
+
+}
+.logo{
+    background-image: url(../imagens/jhz.jpg );
+    float: left;
+    width: 333px;
+    height: 91px;
+    text-indent: -9999px;
+    
+
+}
+.link-navegacao a {
+    border-radius: 10px;
+    color: black;
+}
+
+h2{
+    text-align: center;
+    
+}
+
+ .carousel-titulos{
+     color: black;
+ }
+p  {
+    color: black;
+}
+.fita-rgb{
+    text-align: center;
+}
+.led-carousel{
+    box-sizing: border-box;
+}
+footer{
+	position : fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color:white;
+}

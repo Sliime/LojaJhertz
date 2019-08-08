@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>J-Hertz</title>
+		<meta charset="utf-8">
+    <head>
+             <meta charset="utf-8">
+             
+         
+             <!-- Bootstrap CSS -->
+             <link rel="stylesheet" type="text/css" href="css/reset.css">
+             <link rel="stylesheet" type="text/css" href="css/main.css">
+             <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+             <link rel="stylesheet" type="text/css" href="css/paginafrete.css">
+
+     </head>
+	<body>
+
+     <title> J-Hertz </title>
+   
+     <aside class="nav">
+         <nav>
+             <ul>
+                 
+                
+                 <li class ="link-navegacao"><a>Sobre a loja</a></li>
+                 <li class ="link-navegacao"><a>Entrega</a></li>
+                 <li class ="link-navegacao"><a>Produtos</a></li>
+                 
+                 
+             </ul>
+         </nav>
+
+         <ul>
+             <li><a class ="logo" href="index.html">J-Hertz</a></li>
+         </ul>
+     </aside>
+           
+	<main>
+
+
+     
+        <section class="container">
+            <h2 id="titulo-form">Calcule seu frete! </h2>
+
+            <p>No momento o site não esta funcionando com pagamento online, no site você pode ver nossos produtos e entrar em contato via whatsApp.
+                 </p>
+                 <p>Por meio do whatsApp, você pode fazer um agendamento para a entrega do produto em sua casa e o entregador leva a máquina de cartão, abaixo você pode calcular o frete até sua casa.</p>
+                 <p>Você digita seu cep eo sistema irá calcular o frete com base na distancia da loja até sua casa.</p>
+            <form id="conteudo-form">
+                <div class="grupo">
+                    <label for="nome" class ="aff">CEP:</label>
+                    <input id="cep" name="valorCep" type="text" placeholder="Digite seu cep" class="campo">
+                    <button id="calcular-frete" class="botao">Calcular Frete!</button>
+                </div>
+                
+        
+                
+            </form>
+        </section>
+     
+
+	</main>
+		
+		<footer>
+			&copy; Guilherme Siqueira 2019
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/requisicaoFrete.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKlnAWQeFo1xC8BUuYEIqBVNw8JhRmL2Y&callback=initMap"
+  type="text/javascript"></script>
+    </body>
+        
+</html>
