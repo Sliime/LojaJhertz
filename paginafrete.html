@@ -24,7 +24,7 @@
                  
                 
                  <li class ="link-navegacao"><a>Sobre a loja</a></li>
-                 <li class ="link-navegacao"><a>Entrega</a></li>
+                 <li class ="link-navegacao"><a href="paginafrete.html">Entrega</a></li>
                  <li class ="link-navegacao"><a>Produtos</a></li>
                  
                  
@@ -53,13 +53,25 @@
                     <input id="cep" name="valorCep" type="text" placeholder="Digite seu cep" class="campo">
                     <button id="calcular-frete" class="botao">Calcular Frete!</button>
                 </div>
-                
-        
-                
-            </form>
-        </section>
-     
 
+            </form>
+
+        </section>
+     <section class="container2">
+        <h2>Resultado</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>De</th>
+                    <th>Para</th>
+                    <th>Custa</th>
+                </tr>
+            </thead>
+            <tbody id="tabela-endereco">
+
+            </tbody>
+        </table>
+    </section>
 	</main>
 		
 		<footer>
@@ -71,6 +83,7 @@
         <script src="js/requisicaoFrete.js"></script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKlnAWQeFo1xC8BUuYEIqBVNw8JhRmL2Y&callback=initMap"
   type="text/javascript"></script>
+        <script src ="js/adicionaHtml.js"></script>
     </body>
         
 </html>

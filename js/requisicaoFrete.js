@@ -1,7 +1,7 @@
 
 var botao = document.querySelector("#calcular-frete");
 
-botao.addEventListener("click", adicionarCalculo);
+botao.addEventListener("click", chamarApiComParametros);
 
 
 
@@ -9,11 +9,11 @@ function chamarApiComParametros (){
     event.preventDefault();
     var form = document.querySelector("#conteudo-form");
     var input = form.valorCep.value;
-    var origin2 = '01509010';
+    var origin2 = "Guaranesia, 1445, Vila Maria, SP";
     var destinationA = input;
     
     googleMatrixAPI(destinationA, origin2);
-
+    
 }
 
 
@@ -45,11 +45,10 @@ function callback(response, status) {
           var from = origins[i];
           var to = destinations[j];
 
-          console.log(distance);
-       
-          console.log(calcular(distance));
-
-          
+        console.log(distance);
+        console.log(from);
+        console.log(to);
+          adicionarFormulario(from, to, calcular(distance));
           
         }
       }
